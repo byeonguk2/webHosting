@@ -55,7 +55,7 @@ a {
 /* 커서아이콘 */
 #cosuIcon {
     position: absolute;
-    background-image: url(./커서.png);
+    background-image: url(./cus.png);
     margin-top: 3px;
     margin-left: 2px;
     height: 10.0px;
@@ -163,7 +163,7 @@ a {
 }
 /* 마켓컬리 */
 #marketkurly {
-    background-image: url(./마켓컬리이름.svg);
+    background-image: url(./marketkulryname.svg);
     height: 60%;
     width: 82px;
 }
@@ -222,7 +222,7 @@ a {
 }
 /* 햄버거 */
 #hamburger{
-    background-image: url(./햄버거.svg);
+    background-image: url(./hambuger.svg);
     width: 20px;
     height: 14px;
     cursor: pointer;
