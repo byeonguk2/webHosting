@@ -1,0 +1,631 @@
+/* 마진 패딩값 초기화 */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+/* 리스트 동라미 삭제 */
+ul, ol {
+    list-style: none;
+}
+/* a태크 줄 삭제 */
+a {
+    text-decoration: none
+}
+/* 헤더태그 상단 */
+#header {
+    box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.07);
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+/* 풋터 */
+#footer {
+    margin-top: 90px;
+    width: 100vw;
+    height: 460px;
+    display: flex;
+    justify-content: center;
+}
+/* 헤더area */
+#header-area {
+    width: 1050px;
+}
+/* 회원가입,로그인 a태그가 존재하는 위치 */
+#TopIcon-area{
+    height: 30px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+/* 회원가입,로그인 a태그를 감싸는 디브 */
+#TopIcon-area-div {
+    height: 21px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+}
+/* 고객센터 a태그 */
+#service-center {
+    font-size: 13px;
+    width: 61px;
+    cursor: pointer;
+    color: black;
+}
+/* 커서아이콘 */
+#cosuIcon {
+    position: absolute;
+    background-image: url(./커서.png);
+    margin-top: 3px;
+    margin-left: 2px;
+    height: 10.0px;
+    background-position: -3px -3px;
+    width: 11.5px;
+    cursor: pointer;
+}
+/* 로그인 a태그 */
+#login-aTag {
+    font-size: 13px;
+    cursor: pointer;
+    color: black;
+}
+/* 회원가입 a태그 */
+#join-aTag {
+    color: rgb(81, 1, 81);
+    font-size: 13px;
+    cursor: pointer;
+}
+/* 스틱 */
+.stick {
+    color: gray;
+    margin: 0px 12px;
+    font-size: 18px;
+}
+/* ------------------------------------------------------------------- */
+/* 중간 전체를 감싸는 태그 */
+#middle-area {
+    display: flex;
+    height: 70px;
+}
+/* 회사이름 */
+#storeName-area {
+    width: 260px;
+
+}
+/* 검색창 */
+#search-area{
+    width: 390px;
+    margin-left: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* 헤더 아이콘 */
+#headerIcon-icon {
+    width: 120px;
+    margin-left: 190px;
+    display: flex;
+    align-items: center;
+    gap: 1px;
+}
+/* 검색창 옆에 아이콘 */
+.header-lasticon {
+    width: 66px;
+    height: 36px;
+}
+/* 카트 아이콘 */
+#cart-icon {
+    background-image: url(./carticon.svg);
+    cursor: pointer;
+}
+/* 하트 아이콘 */
+#heart-icon {
+    background-image: url(./heart.svg);
+    cursor: pointer;
+}
+/* 위치 아이콘 */
+#gps-icon {
+    background-image: url(./gpsicon.svg);
+    cursor: pointer;
+}
+/* 검색창 메인 */
+#search-area-main {
+    display: flex;
+    align-items: center;
+}
+/* 검색창 */
+#search-area {
+    border-radius: 4px;
+    border: 1px solid rgb(81, 1, 81);
+    height: 65%;
+    display: flex;
+}
+/* 검색기능 */
+#inputSearch {
+    font-size: 16px;
+    border: none;
+    height: 55%;
+    width: 88%;
+}
+/* 검색아이콘 */
+#search-icon {
+    border: none;
+    background-image: url(./Untitled\ \(2\).png);
+    height: 55%;
+    width: 7%;
+    background-position: -9px -12px;
+    cursor: pointer;
+}
+/* 헤더 글자를 담는 */
+#storeName-area {
+    display: flex;
+    align-items: center;
+}
+/* 마켓컬리 */
+#marketkurly {
+    background-image: url(./마켓컬리이름.svg);
+    height: 60%;
+    width: 82px;
+}
+/* 옆 글자들 */
+#mklan {
+    background-color: white;
+    border: none;
+    width: 68px;
+    height: 40px;
+    margin-left: 20px;
+    font-size: 16px;
+    color: rgb(81, 1, 81);
+    cursor: pointer;
+}
+#bulan{
+    background-color: white;
+    border: none;
+    width: 68px;    
+    height: 40px;
+    font-size: 16px;
+    color: gray;
+    cursor: pointer;
+}
+.stick2{
+    color: gray;
+    margin: 0px 12px;
+}
+/* ---------------------------------------------------------------------- */
+/* 전체를 감쌈 */
+#nav-area {
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+/* 첫번째 디브 */
+#nav-left {
+    width: 130px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+/* 두번째 디브 */
+#nav-center {
+    width: 900px;
+    height: 100%;
+    display: flex;
+}
+/* 세번째 디브 */
+#nav-right {
+    border-radius: 20px;
+    border: 1px solid gray;
+    width: 160px;
+    height: 28px;
+    display: flex;
+    cursor: pointer;
+}
+/* 햄버거 */
+#hamburger{
+    background-image: url(./햄버거.svg);
+    width: 20px;
+    height: 14px;
+    cursor: pointer;
+}
+/* 카테고리 */
+#category {
+    height: 14px;
+    margin-left: 10px;
+    color: rgb(81, 1, 81);
+    cursor: pointer;
+}
+#nav-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* 신상품 */
+#new-item {
+    color: rgb(57, 56, 56);
+    font-size: 17px;
+    height: 30%;
+    margin-left: 60px;
+    cursor: pointer;
+}
+/* 베스트 */
+#best{
+    color: rgb(57, 56, 56);
+    font-size: 17px;
+    margin-left: 90px;
+    height: 30%;
+    cursor: pointer;
+}
+/* 알뜰쇼핑 */
+#shopping {
+    color: rgb(57, 56, 56);
+    font-size: 17px;
+    margin-left: 90px;
+    height: 30%;
+    cursor: pointer;
+}
+/* 특가/혜택 */
+#Benefits {
+    color: rgb(57, 56, 56);
+    font-size: 17px;
+    margin-left: 100px;
+    height: 30%;
+    cursor: pointer;
+}   
+/* 오른쪽 */
+#nav-right {
+    justify-content: center;
+    align-items: center;
+}
+/* a태그 */
+#parcel {
+    font-size: 13px;
+    color: gray;
+}
+/* 샛별 */
+span[name = pua] {
+    font-size: 13px;
+    color: rgb(81, 1, 81);
+    text-decoration: none;
+}
+/* ---------------------------------------------------------------------- */
+/* 회원가입 */
+#join {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+/* 회원가입 전체 */
+#join-area {
+    width: 640px;
+    /* height: 3050px; */
+}
+/* 회원가입 안내 */
+#join-info {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 28px;
+    line-height: 35px;
+    font-weight: 500;
+    letter-spacing: -1px;
+    color: #333;
+}
+/* 밑줄 */
+#bottom-solid {
+    padding-bottom: 10px;
+    border-bottom: 2px solid rgb(51, 51, 51);
+    font-size: 12px;
+    color: rgb(102, 102, 102);
+    line-height: 17px;
+    text-align: right;
+}
+/* 모든라벨 */
+.Alllabel {
+    font-weight: 500;
+    color: rgb(51, 51, 51);
+    line-height: 20px;
+}
+/* 모든 * */
+.star {
+    color: rgb(238, 106, 123);
+}
+/* 회원가입 입력 */
+.joininput {
+    width: 333px;
+    height: 46px;
+    padding: 0px 11px 1px 15px;
+    border-radius: 4px;
+    border: 1px solid rgb(221, 221, 221);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: rgb(51, 51, 51);
+    outline: none;
+    box-sizing: border-box;
+}
+/* 데이터버튼 */
+.joindata-button {
+    width: 120px;
+    margin-left: 8px;
+}
+/* 모든버튼 */
+.Allbutton {
+    display: block;
+    padding: 0px 10px;
+    text-align: center;
+    overflow: hidden;
+    width: 100%;
+    height: 46px;
+    border-radius: 3px;
+    color: rgb(95, 0, 128);
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(95, 0, 128);
+    cursor: pointer;
+}
+/* 입력 전체 */
+.input-area {
+    display: inline-flex;
+    width: 139px;
+    padding-top: 10px;
+}
+/* 로고전체 */
+.logo{
+    width: 139px;
+    padding-top: 12px;
+}
+/* 모든걸 덮음 */
+.allinput-area {
+    display: flex;
+    padding: 10px 20px;
+}
+/* 핸드폰번호 */
+#phone {
+    color: gray;
+    border: 1px solid gray;
+}
+/* 주소입력 버튼 */
+#adreesBtn {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    color: rgb(95, 0, 128);
+    border: 1.5px solid rgb(95, 0, 128);
+    cursor: pointer;
+}
+/* 주소검색창 아이콘 */
+#adrspanimg {
+    width: 20px;
+    height: 20px;
+    background-image: url(./ico_search.svg);
+}
+/* 주소창 아래 안내 */
+#adrinfo {
+    margin-top: 10px;
+    font-size: 12px;
+    line-height: 18px;
+    color: rgb(102, 102, 102);
+}
+#manorgirl {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0px;
+    padding-right: 0px;
+    align-items: center;
+    border: none;
+}
+.mangirl {
+    padding: 12px 0px 9px;
+    font-size: 14px;
+    color: gray;
+    display: flex;
+    align-items: center;
+}
+.one {
+    min-width: 24px;
+    min-height: 24px;
+    display: inline-block;
+    position: relative;
+    border-radius: 50%;
+    background-color: white;
+    border: 1px solid lightgray;
+}
+.one2 {
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    background-color: white;
+}
+.gender {
+    padding-left: 10px;
+}
+#inputinfo-area {
+    padding: 0px;
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    border: none;
+}
+.inputinfo {
+    display: flex;
+    align-items: end;
+    font-size: 14px;
+    height: 35px;
+}
+.fre {
+    margin-left: 11px;
+    text-align: center;
+}
+.bottom-solid2 {
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgb(51, 51, 51);
+    font-size: 12px;
+    color: rgb(102, 102, 102);
+    line-height: 17px;
+    text-align: right;
+}
+#agreement-area {
+    height: 300px;
+}
+#agreement {
+    display: grid;
+    height: 290px;
+    width: 100%;
+    padding-top: 12px;
+}
+.last {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    font-size: 14px;
+}
+#big {
+    height: 150%;
+    display: grid;
+}
+#logo2 {
+    margin-top: 10px;
+    padding: 0px;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    border: none;
+}
+#big1 {
+    display: flex;
+    align-items: center;
+}
+#ok {
+    font-size: 20px;
+}
+span[name="one3"] {
+    min-width: 21px;
+    min-height: 21px;
+    display: inline-block;
+    position: relative;
+    border-radius: 50%;
+    background-color: white;
+    border: 1px solid lightgray;;
+    margin-right: 10px;
+}
+#lainfo {
+    font-size: 11px;
+    padding-left: 35px;
+    margin-bottom: 20px;
+}
+#sibal {
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+#sibal2 {
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+}
+#sibal3 {
+    font-size: 13px;
+    margin-left: 60px;
+    color: rgb(95, 0, 128);
+}
+#sibal4 {
+    margin-top: 30px;
+    border-bottom: 0.3px solid rgb(247, 243, 243);
+}
+#joinstart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    border: none;
+}
+#lastbtn {
+    width: 240px;
+    height: 56px;
+    background-color: rgb(95, 0, 128);
+    border: none;
+    font-size: 17px;
+    color: white;
+    cursor: pointer;
+}
+#footer-main {
+    width: 61%;
+    height: 100%;
+}
+#footer-top {
+    width: 100%;
+    height: 77%;
+    display: flex;
+}
+#footer-bottom {
+    width: 100%;
+    height: 23%;
+}
+#membercenter {
+    width: 460px;
+    height: 100%;
+}
+#show {
+    width: 540px;
+    height: 100%;
+    background-image: url(./가상.png);
+    margin-left: 90px;
+}
+#fh2 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+#number {
+    margin-bottom: 20px;
+}
+#number > strong {
+    font-size: 2em;
+}
+.seviceinfo-main {
+    display: flex;
+    height: 56px;
+    margin-top: 6px;
+    /* justify-content: space-between; */
+}
+.servicebtn-area {
+    width: 173px;
+    height: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.seviceinfo-area {
+    width: 300px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.seviceinfo {
+    font-size: 12px;
+    color: lightgray;
+}
+.servicebtn {
+    border: 1px solid lightgray;
+    background-color: white;
+    width: 140px;
+    height: 40px;
+    cursor: pointer;
+}
+.seviceinfokko {
+    height: 50%;
+}
+#e {
+    margin-top: 10px;
+}
+#bank {
+    width: 100%;
+    height: 200px;
+    background-image: url(./가상2.png);
+}
